@@ -1,0 +1,30 @@
+header{
+    font-size: 24px;
+    font-family:'Dokdo',cursive;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.main{
+    margin-left: 120px;
+    border: 2px solid lightyellow;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+    
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(2,1.5);
+    transition: 3s transform;
+    border-radius: 5px;
+}
